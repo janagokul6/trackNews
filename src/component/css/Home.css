@@ -1,0 +1,25 @@
+#login-image {
+  background-image: url("../images/Login.jpg");
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  width: 50%;
+}
+
+#login-home {
+  display: flex;
+  justify-content: center;
+}
+
+#login-buttons {
+  width: 50%;
+}
+@media screen and ((max-width: 600px)) {
+  #login-image {
+    display: none;
+  }
+  #login-home {
+    height: 90vh;
+  }
+}
